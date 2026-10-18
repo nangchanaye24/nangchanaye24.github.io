@@ -1,0 +1,22 @@
+h1{
+    /* color:red;
+    text-align: center;
+    text-transform: capitalize; */
+    /* color: red
+        0 to 9/ a to f */
+    /* rgb */
+    /* hex code */
+    /* color: #ff0000 */
+
+    /* short hex code */
+    /* color: #f00 */
+    color:rgb(255,0,0 );
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    text-indent: 30px;
+    background-color: blue;
+    width: 50%;
+}
