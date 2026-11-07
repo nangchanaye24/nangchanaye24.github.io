@@ -1,0 +1,36 @@
+/* universal selector */
+*{
+    color: red;
+}
+/* tag selector <or> element selector */
+ h1{
+    
+    color: red;
+    background-color: aqua;
+} 
+/* attribute selector */
+div[class="test"]{
+    background-color: aquamarine;
+    color: rgb(61, 61, 59);
+}
+#idselector{
+    color: green;
+}
+.classselector{
+    color:black;
+}
+ h1#headline{
+color: blue;
+text-align: center;
+background-color: yellow;
+}
+span.cls{
+    color: goldenrod;
+}
+p a{
+    color: orange;
+    text-decoration: none;
+}
+h1.de{
+    background-color: cadetblue;
+}

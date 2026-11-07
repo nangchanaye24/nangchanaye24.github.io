@@ -1,0 +1,166 @@
+/* universal selector
+*{
+    color: red;
+    text-align: center;
+}
+/* tag selector <or> element selector */
+/* p{
+    text-indent: 5%;
+}
+h1{
+    color: green;
+} */
+/* attribute selector */
+/* a[title="You can go to google"]{
+color: blue;
+} */ 
+/* id selector */
+h1{
+    color: red;
+    text-align: center;
+}
+#idselector{
+    color:brown;
+    text-indent: 50px;
+    line-height: 30px;
+    word-spacing: 40px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+/* class selector */
+.classselector{
+    color: green;
+    text-transform: capitalize;
+    font-size: 25px;
+    word-spacing: 20%;
+}
+/* desc selector */
+#desc a{
+    color:red;
+}
+/* child selector */
+#child > a{
+    color: blue;
+}
+:target{
+color: red;
+font-style: bold;
+line-height: 50px;
+text-indent: 50px;
+}
+input[type="radio"]:checked+label{
+color:rgb(0, 38, 128);
+font-size:90%;
+font-style: italic;
+}
+#mydata{
+    width:50%;
+    margin:auto;
+}
+input[type="text"]{
+    width:100%;
+    height:30%;
+}
+input[type="checkbox"]:enabled+label{
+    color: blue;
+}
+input[type="checkbox"]:checked+label{
+    color: red;
+}
+input[type="checkbox"]:disabled+label{
+    color: green;
+}
+#fname:read-only{
+background-color: green;
+}
+/* div:empty{
+    height:30px;
+    background-color: green;
+} */
+ul li:last-child{
+    background-color: blue;
+}
+ul li:first-child{
+    color:red;
+}
+ul li:nth-child(3){
+    background-color: aqua;
+}
+/* margin */
+#marginone{
+    border: 1px solid black;
+    /* margin:50px; */
+    /* T/R/B/L */
+    /* margin:40px 0; */
+    /* T&B / L&R */
+    /* margin:40px 100px 0; */
+    /* T /L&R/B */
+    margin:100px 50px 0 10px;
+    /* T/R/B/L */
+}
+#margintwo{
+    margin-bottom: 100px;
+}
+.padding{
+    border: 2px dotted blue;
+    padding: 70px 10px;
+    color: aquamarine;
+    margin-top: 20%;
+}
+.borderone{
+    border: 10px dashed yellow;
+}
+#bordertwo{
+    border-style: dashed solid double;
+    border-width: 20px 50px;
+    border-color: blue violet;
+}
+.block{
+    border:3px solid green;
+    height: 40px;
+    display: inline-block;
+}
+.inline{
+    display:inline-block;
+    border: 2px solid blue;
+    height: 40px;
+    width: 400px;
+}
+.floatright{
+    float: right;
+}
+div.clear{
+    clear: both;
+}
+.floatleft{
+    float:left;
+}
+/* descandant selector */
+.grid div,.gridrow div,.gridcolumn div{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.grid{
+    grid-template-columns: 1fr 1fr 1fr; 
+    display: grid;
+    grid-gap: 20px;
+    /* grid-column-gap: 30px;
+    grid-row-gap: 20px; */
+}
+.gridrow,.gridcolumn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid: 20px;
+}
+.rowadd{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.columnadd{
+    
+    grid-column-start: 5;
+    grid-column-end: 6;
+
+}
